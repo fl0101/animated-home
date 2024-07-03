@@ -35,7 +35,7 @@ Tests for the components and the home page were developed using Jest and React T
 ## How to Run
 ### Clone the repository:
 
-`git clone https://github.com/seu-usuario/petshop-app.git`
+`git clone https://github.com/fl0101/animated-home.git`
 
 ### Enter the project directory:
 `cd animated-home`

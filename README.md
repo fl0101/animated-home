@@ -35,7 +35,7 @@ Os testes para os componentes e a página inicial foram desenvolvidos utilizando
 ## Como executar
 ### Clone o repositório:
 
-`git clone https://github.com/seu-usuario/petshop-app.git`
+`git clone https://github.com/fl0101/animated-home.git`
 
 ### Entre no diretório do projeto: 
 `cd animated-home`
