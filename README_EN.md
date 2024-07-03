@@ -38,7 +38,7 @@ Tests for the components and the home page were developed using Jest and React T
 `git clone https://github.com/fl0101/animated-home.git`
 
 ### Enter the project directory:
-`cd animated-home`
+`cd animated-home/`
 
 ## Necessary Dependencies
 ### Production Dependencies
