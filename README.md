@@ -38,7 +38,7 @@ Os testes para os componentes e a página inicial foram desenvolvidos utilizando
 `git clone https://github.com/fl0101/animated-home.git`
 
 ### Entre no diretório do projeto: 
-`cd animated-home`
+`cd animated-home/`
 
 ## Dependências necessárias
 ### Dependências de Produção
