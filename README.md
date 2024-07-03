@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# PetShop App
+## Descrição do Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O PetShop App é uma aplicação front-end tendo como inspiração a tela inicial do ChatGPT. Foi desenvolvida para fornecer uma tela inicial animada para uma loja de pet shop. A aplicação é focada em proporcionar uma interface visualmente agradável e interativa, que pode ser integrada a uma aplicação back-end para funcionalidades completas. 
 
-## Available Scripts
+## Funcionalidades
+### Animação de Texto
 
-In the project directory, you can run:
+Exibe textos animados de forma dinâmica para melhorar a experiência do usuário.
 
-### `npm start`
+### Componentes de Interface:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Botões de Login e Registro: Botões estilizados para futuras funcionalidades de autenticação.
+* Links Informativos: Lista de links para termos de uso e política de privacidade, prontos para serem integrados a conteúdos reais.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Componentes Reutilizáveis: 
 
-### `npm test`
+Uso de componentes reutilizáveis como botões, títulos e listas de links para fácil manutenção e extensão. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do Projeto
 
-### `npm run build`
+src/components:
+  - Button: Componente para botões estilizados.
+  - Title: Componente para exibição de títulos.
+  - AnimatedText: Componente para exibição de texto animado.
+  - ListLinks: Componente para exibição de uma lista de links com separadores.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/pages:
+  - Home: Página inicial que integra todos os componentes mencionados, formando a tela principal da aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Testes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os testes para os componentes e a página inicial foram desenvolvidos utilizando Jest e React Testing Library para garantir a funcionalidade correta e a confiabilidade da interface.
 
-### `npm run eject`
+## Como executar
+### Clone o repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`git clone https://github.com/seu-usuario/petshop-app.git`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Entre no diretório do projeto: 
+`cd animated-home`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dependências necessárias
+### Dependências de Produção
+Estas são as dependências necessárias para a aplicação rodar:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+node: ^18.19.0
+react: ^18.3.1
+react-dom: ^18.3.1
+react-scripts: ^3.0.1
+styled-components: ^6.1.11
+web-vitals: ^2.1.4
 
-## Learn More
+### Dependências de Desenvolvimento e Teste
+Estas são as dependências necessárias para desenvolvimento e teste:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visual Studio Code
+@testing-library/jest-dom: ^5.17.0
+@testing-library/react: ^13.4.0
+@testing-library/user-event: ^13.5.0
+mutationobserver-shim: ^0.3.7
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Instale as dependências:
 
-### Code Splitting
+`npm install`
+`npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event mutationobserver-shim`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Passos para Instalar Node.js
+* Baixar e Instalar Node.js:
 
-### Analyzing the Bundle Size
+Vá para o [site oficial do Node.js](https://nodejs.org/en) e baixe a versão LTS recomendada para a maioria dos usuários.
+Siga as instruções de instalação específicas para o seu sistema operacional (Windows, macOS, ou Linux).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Verificar a Instalação:
 
-### Making a Progressive Web App
+Após instalar o Node.js, abra o terminal (ou Prompt de Comando no Windows) e verifique a versão do Node.js e do npm instalados com os seguintes comandos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`node -v`
+`npm -v`
 
-### Advanced Configuration
+Você deve ver os números das versões instaladas, confirmando que a instalação foi bem-sucedida.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Execute a aplicação:
 
-### Deployment
+`npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Executando os Testes
 
-### `npm run build` fails to minify
+Para rodar os testes no projeto, siga estes passos:
+1- Instalação das Dependências de Teste: Se ainda não tiver as dependências necessárias, instale-as com:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm install --save-dev @testing-library/react @testing-library/jest-dom`
+`npm install mutationobserver-shim`
+
+2- Rodando os Testes: 
+Execute o comando no terminal:
+
+`npm test`
+
+Este comando executará todos os arquivos de teste que seguem a convenção de nomenclatura, como *.test.js ou *.spec.js.
+
+# Contribuições
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+# Licença
+
+Este projeto está licenciado sob a Licença MIT.

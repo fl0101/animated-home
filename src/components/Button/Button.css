@@ -1,0 +1,52 @@
+/* src/components/Button/Button.css */
+
+/* Estilos para o contêiner dos botões */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+/* Estilos para o botão*/
+.button {
+    width: 180px;
+    padding: 13px 0px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para o botão 'heverizado' */
+.button-hovered {
+    background-color: #0408c9;
+}
+
+/* Media Queries para responsividade*/
+@media (max-width : 600px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .button {
+        width: 80%;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 600px) and (max-width: 1024px) {
+
+    .button {
+        width: 120px;
+    }
+}

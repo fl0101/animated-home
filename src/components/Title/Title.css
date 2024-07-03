@@ -1,0 +1,36 @@
+/* Estilos para o título da seção preta */
+.title-black-section {
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+/* Estilos para o título da seção azul */
+.title-blue-section {
+    color: rgb(243, 248, 248);
+    margin-left: 20px;
+
+}
+
+/* Media Queries para responsividade*/
+@media (max-width: 600px) {
+    .title-black-section {
+        font-size: 20px;
+    }
+
+    .title-blue-section {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .title-black-section {
+        font-size: 30px;
+    }
+
+    .title-blue-section {
+        font-size: 35px;
+    }
+}

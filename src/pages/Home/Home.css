@@ -1,0 +1,31 @@
+/* src/pages/Home/Home.css */
+
+/* Estilos para o contêiner principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Estilos para o conteúdo */
+.content {
+    display: flex;
+    flex: 1;
+}
+
+/* Estilos para a seção azul */
+.blue-section {
+    flex: 0 0 60%;
+    background-color: #0a7bfc;
+    min-height: 100%;
+}
+
+/* Estilos para a seção preta */
+.black-section {
+    flex: 0 0 40%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

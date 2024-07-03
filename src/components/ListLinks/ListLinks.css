@@ -1,0 +1,37 @@
+/* src/components/ListLinks/ListLinks.css */
+
+/* Estilo base para a lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo base para os itens da lista */
+li {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: 15px;
+}
+
+/* Estilo base para os links */
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Estilo para o link quando estão em hover*/
+a:hover {
+    text-decoration: underline;
+    color: #0004ff;
+}
+
+/* Estilo para o separador entre os links */
+.separator {
+    margin: 0 5px;
+    color: white;
+}
