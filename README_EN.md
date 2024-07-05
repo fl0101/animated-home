@@ -99,6 +99,17 @@ Execute the command in the terminal:
 
 This command will run all test files following the naming convention, such as *.test.js or *.spec.js.
 
+# Author
+
+ [Flaviane Nascimento](https://github.com/fl0101/) :rocket:
+
+ "Know thyself"
+ 
+# Contact
+ [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkdin.com/in/flaviane-nascimento-69375816a)](https://www.linkdin.com/in/flaviane-nascimento-69375816a)
+ [![X Badge](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/flaviane80639)
+ [![Email Badge](https://img.shields.io/badge/proton%20mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:fl0101@protonmail.com)
+
 # Contributions
 
 Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
@@ -106,3 +117,4 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 # License
 
 This project is licensed under the MIT License.
+

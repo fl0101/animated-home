@@ -19,14 +19,14 @@ Uso de componentes reutilizáveis como botões, títulos e listas de links para 
 
 ## Estrutura do Projeto
 
-src/components:
-  - Button: Componente para botões estilizados.
-  - Title: Componente para exibição de títulos.
-  - AnimatedText: Componente para exibição de texto animado.
-  - ListLinks: Componente para exibição de uma lista de links com separadores.
+### src/components:
+  - **Button**: Componente para botões estilizados.
+  - **Title**: Componente para exibição de títulos.
+  - **AnimatedText**: Componente para exibição de texto animado.
+  - **ListLinks**: Componente para exibição de uma lista de links com separadores.
 
-src/pages:
-  - Home: Página inicial que integra todos os componentes mencionados, formando a tela principal da aplicação.
+### src/pages:
+  - **Home**: Página inicial que integra todos os componentes mencionados, formando a tela principal da aplicação.
 
 # Testes
 
@@ -99,10 +99,20 @@ Execute o comando no terminal:
 
 Este comando executará todos os arquivos de teste que seguem a convenção de nomenclatura, como *.test.js ou *.spec.js.
 
+# Autor
+
+ [Flaviane Nascimento](https://github.com/fl0101/) :rocket:
+
+ "Conhece a ti mesmo"
+ 
+# Contato
+ [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkdin.com/in/flaviane-nascimento-69375816a)](https://www.linkdin.com/in/flaviane-nascimento-69375816a)
+ [![X Badge](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/flaviane80639)
+ [![Email Badge](https://img.shields.io/badge/proton%20mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:fl0101@protonmail.com)
+
 # Contribuições
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 # Licença
-
 Este projeto está licenciado sob a Licença MIT.
